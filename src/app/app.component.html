@@ -1,0 +1,88 @@
+<div class="wrap">
+    <!-- HEADER  -->
+    <header class="main-header">
+        <div class="container">
+            <div class="logo">
+                <a routerLink="/home">
+                    <b>Logo</b>
+                </a>
+            </div>
+
+            <div class="menu">
+                <!-- desktop navbar -->
+                <nav class="desktop-nav">
+                    <ul class="first-level">
+                        <li>
+                            <a routerLink="/home"
+                               routerLinkActive="active"
+                               class="animsition-link">
+                                Главная
+                            </a>
+                        </li>
+                        <li>
+                            <a routerLink="/blog"
+                               routerLinkActive="active"
+                               class="animsition-link">
+                                Блог
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="menu-icon">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <main>
+        <router-outlet></router-outlet>
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer class="main-footer wow fadeInUp">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-sm-12">
+                    <nav class="footer-nav">
+                        <ul>
+                            <li>
+                                <a routerLink="/home"
+                                   routerLinkActive="active"
+                                   class="animsition-link">
+                                    Главная
+                                </a>
+                            </li>
+                            <li>
+                                <a routerLink="/blog"
+                                   routerLinkActive="active"
+                                   class="animsition-link">
+                                    Блог
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <div class="col-md-4 col-sm-12 text-right">
+                    <div class="uppercase gray-text">
+                        &copy; 2018. all rights reserved.
+                    </div>
+                    <ul class="social-icons" style="margin-top:30px;float:right">
+                        <li><a href="#"><i class="icon ion-social-facebook"></i></a></li>
+                        <li><a href="#"><i class="icon ion-social-twitter"></i></a></li>
+                        <li><a href="#"><i class="icon ion-social-youtube"></i></a></li>
+                        <li><a href="#"><i class="icon ion-social-linkedin"></i></a></li>
+                        <li><a href="#"><i class="icon ion-social-pinterest"></i></a></li>
+                        <li><a href="#"><i class="icon ion-social-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+
